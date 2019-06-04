@@ -1,3 +1,7 @@
-<h1>Home page</h1>
-<%= link_to 'About', about_path %>
-<%= link_to 'Blog', articles_path %>
+<div class="jumbotron">
+    <h1 class="display-4">BLOG</h1>
+    <p class="lead">This is a simple blog app.</p>
+    <hr class="my-4">
+    <%= link_to 'About', about_path, class: "btn btn-primary btn-lg" %>
+    <%= link_to 'Blog', articles_path, class: "btn btn-info btn-lg" %>
+</div>
