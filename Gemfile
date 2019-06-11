@@ -10,7 +10,8 @@ end
 gem 'rails', '~> 5.1.7'
 # jQuery
 gem 'jquery-rails'
-
+# Bycript gem
+gem 'bcrypt', '~> 3.1.13'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
