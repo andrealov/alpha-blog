@@ -1,4 +1,10 @@
 <div class="container">
 <h1 class="title">List of all articles</h1>
-<%= render 'article', obj: @articles %>
+<div align="center">
+    <%= will_paginate %>
+</div>
+    <%= render 'article', obj: @articles %>
+</div>
+<div align="center">
+    <%= will_paginate %>
 </div>

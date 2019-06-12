@@ -12,6 +12,9 @@ gem 'rails', '~> 5.1.7'
 gem 'jquery-rails'
 # Bycript gem
 gem 'bcrypt', '~> 3.1.13'
+# Pagination gem
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '~> 1.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
