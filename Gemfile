@@ -13,7 +13,7 @@ gem 'jquery-rails'
 # Bycript gem
 gem 'bcrypt', '~> 3.1.13'
 # Pagination gem
-gem 'will_paginate', '3.1.5'
+gem 'will_paginate', '3.1.6'
 gem 'bootstrap-will_paginate', '~> 1.0.0'
 # Use Puma as the app server
 # Integration test gem

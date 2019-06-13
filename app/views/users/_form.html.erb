@@ -1,5 +1,5 @@
 <%= render 'shared/errors', obj: @user %>
-
+<div class="container">
     <div class="row">
         <div class="col-12">
             <%= form_for(@user, :html => {class: "form", role: "form"}) do |f| %>
@@ -23,3 +23,4 @@
             [ <%= link_to 'Cancel request and go back to article listing', articles_path, class: "go_back_link" %> ]
         </div>
     </div>
+</div>

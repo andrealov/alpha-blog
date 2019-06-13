@@ -8,19 +8,7 @@ footer {
     margin-bottom: 25px;
 }
 
-#logo {
-    float: left;
-    font-size: 1.7em;
-    color: #222;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-weight: bold;
-}
 
-#logo:hover {
-    color: #555;
-    text-decoration: none;
-}
 
 .title {
     font-size: 18px;
@@ -49,4 +37,74 @@ footer {
 .card-meta-details {
     border-top: 1px solid #eaeaea;
     margin-top: 15px;
+}
+
+/* Custom Stylesheet */
+
+/* Navbar */
+
+a.navbar-brand {
+    font-family: "Avenir", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+a.navbar-brand:hover {
+    color: #666;
+}   
+
+.navbar-light .navbar-nav .nav-link,
+.dropdown-item {
+    color: #222;
+    font-family: "Avenir", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+/* landing page */
+
+.landing-page {
+    background-color: #fff;
+}
+
+.btn-primary {
+    font-family: "Avenir", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* articles */ 
+
+.card-title a {
+    font-family: "Avenir", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.card-title a:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+p.card-text.content {
+    font-family: "Avenir", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card-meta-details small {
+    font-weight: 700;
+    color: blue;
 }
