@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 class="title">List of all categories</h1>
+    <% @categories.each do |category| %>
+    <ul class="listing">
+        <div class="row text-center">
+                <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                        <div class="card-title"><%= link_to "#{category.name}", category_path(category) %></div>
+                    </div>
+                </div>
+            </div>
+    </ul>
+    <% end %>
+</div>
